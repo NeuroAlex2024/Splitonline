@@ -1,0 +1,22 @@
+{
+  "name": "split6-online",
+  "version": "1.0.0",
+  "description": "Split6 - Онлайн мультиплеер игра погони в лабиринте",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["game", "multiplayer", "socketio", "maze", "chase"],
+  "author": "Split6 Team",
+  "license": "MIT"
+} 
